@@ -1,0 +1,8 @@
+<label [for]="inputData.id">{{inputData.label}}</label>
+<input
+  [id]="inputData.id"
+  [type]="inputData.inputtype"
+  [placeholder]="inputData.placeholder"
+  [value]="inputData.gatitos"
+/>
+<pre>{{inputData | json}}</pre>

@@ -120,5 +120,8 @@
       }
     }
   },
-  "defaultProject": "interfaces-test"
+  "defaultProject": "interfaces-test",
+  "cli": {
+    "analytics": false
+  }
 }
